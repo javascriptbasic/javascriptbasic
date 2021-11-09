@@ -1,5 +1,36 @@
 오후 7:34 2021-11-09
-1. 내 소스코드를 저장 (버전관리)
+0.init 설정
+
+1) 깃허브에 javascriptbasic/javascriptsbasic 만듬 
+2) git config 함
+3) 레파지토리 가지고 온다.
+
+git config --global user.name "BAEK"
+git config --global user.email "100k1@naver.com"
+git config --list
+
+
+echo "# javascriptbasic" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/javascriptbasic/javascriptbasic.git
+git push -u origin main
+
+
+git remote add origin https://github.com/javascriptbasic/javascriptbasic.git
+git branch -M main
+git push -u origin main
+
+
+1. 폴더에 있는 파일들을 깃허브에 올림
+1)git init
+2)git add .
+.은 전부다라는 뜻이다. git add Array_map.js만 올릴수 잇음
+3)git commit -m "first commit" 이런식으로 치다.
+4)연결고리를 만든다. git remote add origin https://github.com/javascriptbasic/javascriptbasic.git
+
 
 2. 소스코드 공유
 
