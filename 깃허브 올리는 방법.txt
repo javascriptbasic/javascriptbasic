@@ -36,8 +36,12 @@
 
 
 2. 깃허브에 올린 파일을 텍스트 에디터로 다운 방법
-    1) git clone git@github.com:javascriptbasic/javascriptbasic.git 해서 다운로드는 됨
+    1) git clone HTTPS 주소로 해서 다운로드는 가능함
+
     2) 다운로드 받은것을 다시 올리기는 SSH 키 같은 비밀번호 같은거를 입력해야함 
             => 이것을 모름
-    3) 원본 폴더가 아닌 다른 폴더에서도 깃허브에 업로드 하는 방법은????
+    3) 원본 폴더가 아닌 다른 폴더에서도 master의 이름으로 깃허브에 업로드 하는 방법은????
     
+
+
+https://github.com/sshusshu => 이 사람 처럼 멋지게 커스터마이징 하고 싶다
