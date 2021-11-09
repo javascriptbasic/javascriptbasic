@@ -1,27 +1,27 @@
 오후 7:34 2021-11-09
 0.init 설정
 
-1) 깃허브에 javascriptbasic/javascriptsbasic 만듬 
-2) git config 함
-3) 레파지토리 가지고 온다.
+    1) 깃허브에 javascriptbasic/javascriptsbasic 만듬 
+    2) 레파지토리 가지고 온다. 
+    3) git config 해야함
 
-git config --global user.name "BAEK"
-git config --global user.email "100k1@naver.com"
-git config --list
-
-
-echo "# javascriptbasic" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/javascriptbasic/javascriptbasic.git
-git push -u origin main
+    git config --global user.name "BAEK"
+    git config --global user.email "100k1@naver.com"
+    git config --list
 
 
-git remote add origin https://github.com/javascriptbasic/javascriptbasic.git
-git branch -M main
-git push -u origin main
+    echo "# javascriptbasic" >> README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin https://github.com/javascriptbasic/javascriptbasic.git
+    git push -u origin main
+
+
+    git remote add origin https://github.com/javascriptbasic/javascriptbasic.git
+    git branch -M main
+    git push -u origin main
 
 
 1. 폴더에 있는 파일들을 깃허브에 올리는 방법
@@ -36,3 +36,4 @@ git push -u origin main
 
 
 2. 깃허브에 올린 파일을 텍스트 에디터로 올리는 방법
+    폴더를 삭제한다고 해도 다운로드를 받아서 프로젝트를 계속 이행하는 방법은?
